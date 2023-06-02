@@ -2,7 +2,7 @@ import { Button } from '../Styles/Button'
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components'
-import { FaInstagram,FaYoutube, FaLinkedinIn } from "react-icons/fa";
+import {FaYoutube, FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -37,13 +37,13 @@ const Footer = () => {
             <h3>Follows Us</h3>
             <div className='footer-social-icons'>
           <NavLink to="https://www.linkedin.com/in/priyanka-sawai-833418222/"><div><FaLinkedinIn className="icons"/></div></NavLink>
-        <NavLink to='https://www.instagram.com/priyasawai/'><div><FaInstagram className="icons"/></div></NavLink>
+        <NavLink to='https://github.com/priyasawai'><div><FaGithub className="icons"/></div></NavLink>
        <NavLink to="https://www.youtube.com/playlist?list=PLYQ2VbKNw3au1rT0co3S1uN6TvRusNZVZ" target="_blank"><div><FaYoutube className="icons"/></div></NavLink> 
         </div>
         </div>
         <div className='footer-contact'>
           <h3>Call Us</h3>
-          <h3>91 9370408641</h3>
+          <h3>91 9458348956</h3>
         </div>
           <div className='footer-bottom-section'>
           <hr />
